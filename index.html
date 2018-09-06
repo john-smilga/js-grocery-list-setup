@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <meta http-equiv="X-UA-Compatible" content="ie=edge">
+ <!-- bootstrap css -->
+ <link rel="stylesheet" href="css/bootstrap.min.css">
+ <!-- main css -->
+ <link rel="stylesheet" href="css/main.css">
+ <!-- google fonts -->
+ <link href="https://fonts.googleapis.com/css?family=Courgette" rel="stylesheet">
+
+ <!-- font awesome -->
+ <link rel="stylesheet" href="css/all.css">
+ <title>Grocery List</title>
+ <style>
+ </style>
+</head>
+
+<body>
+ <div class="container">
+  <div class="row max-height align-items-center">
+   <div class="col-11 mx-auto col-md-10 text-center py-3">
+    <h1 class="text-uppercase app-title font-weight-bold mb-5">grocery list</h1>
+    <div class="feedback text-capitalize alert ">
+    </div>
+    <form class="form-inline my-2" id="input-form">
+     <input class="form-control form-control-lg  text-capitalize w-75" type='text' placeholder="enter value ..." id="input-value">
+     <button class="btn btn-lg my-2 mx-2 submitBtn" type="submit"><i class="fas fa-pen"></i></button>
+    </form>
+    <div class="list-container my-5">
+     <div class="list-items">
+      <!-- single item -->
+      <!-- <div class="item my-3 d-flex justify-content-between p-2">
+       <h5 class="item-title text-capitalize">item name</h5>
+       <span class="remove-icon text-danger"><i class="fas fa-trash"></i></span>
+      </div> -->
+      <!-- end of single item -->
+     </div>
+
+     <button class="clearBtn btn-lg text-capitalize w-50 mx-auto btn-outline-danger" button="button">clear items</button>
+    </div>
+
+   </div>
+
+
+  </div>
+ </div>
+
+
+
+
+ <!-- jquery -->
+ <script src="js/jquery-3.3.1.min.js"></script>
+ <!-- bootstrap js -->
+ <script src="js/bootstrap.bundle.min.js"></script>
+ <!-- script js -->
+ <script src="js/app.js"></script>
+</body>
+
+</html>
